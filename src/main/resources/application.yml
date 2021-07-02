@@ -1,0 +1,12 @@
+server:
+  port: 9292
+
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/balachandarkec/myService-config
+          clone-on-start: true
